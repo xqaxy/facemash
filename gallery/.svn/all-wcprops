@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/xzzc/!svn/ver/82/1/gallery
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/xzzc/!svn/ver/186/1/gallery/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/xzzc/!svn/ver/24/1/gallery/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/xzzc/!svn/ver/24/1/gallery/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/xzzc/!svn/ver/131/1/gallery/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/xzzc/!svn/ver/184/1/gallery/urls.py
+END

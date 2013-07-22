@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facemash</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-bottom: 10px;
+      }
+    </style>
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="http://xzzc.sinaapp.com/">Facemash</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="http://xzzc.sinaapp.com/vote/">Vote</a></li>
+              <li><a href="http://xzzc.sinaapp.com/top/">Top</a></li>
+              <li><a href="http://xzzc.sinaapp.com/browse/">Browse</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    {% block content %}
+    
+    {% endblock %}
+    </div> <!-- /container -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41223128-3', 'sinaapp.com');
+  ga('send', 'pageview');
+
+  </script>
+  </body>
+  <footer style="padding-top:60px">
+  <center>
+  copyright@wilson 21th Jul. 2013
+  <br>
+  Just for fun
+  </center>
+  </footer>
+</html>

@@ -1,0 +1,16 @@
+
+{% extends "base.html" %}
+{% block content %}
+<p class="text-info">
+    <a href="{{ girl.url }}">
+        <i class=" icon-file"></i> Click here for more information on XingSheng
+    </a>
+</p>
+<ul class="inline">
+    {% for image in detail_images %}
+    <li>
+        <img src="{{ image.path }}" class="img-polaroid"></img>
+    </li>
+    {% endfor %}
+<ul>
+{% endblock %}
